@@ -36,11 +36,10 @@ public class Constants {
 	// 音乐地址
 	public static final String MUSIC_URL_DEFAULT = folderName + "/audio/default.mid";
 	public static final String MUSIC_URL_1 = folderName + "/audio/yydjtc.mid";
-	public static final String MUSIC_URL_2 = folderName + "/audio/tongnian.mid";
+	public static final String MUSIC_URL_2 = folderName + "/audio/tn.mid";
 	public static final String MUSIC_URL_3 = folderName + "/audio/tzdn.mid";
 	public static final String MUSIC_URL_4 = folderName + "/audio/wack.mid";
 	public static final String MUSIC_URL_5 = folderName + "/audio/qqqg.mid";
-	public static final String MUSIC_URL_6 = folderName + "/audio/hongri.mid";
-	public static final String MUSIC_URL_7 = folderName + "/audio/huaxin.mid";
+	public static final String MUSIC_URL_6 = folderName + "/audio/hr.mid";
 	
 }
