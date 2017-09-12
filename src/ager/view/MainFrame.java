@@ -40,8 +40,8 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
 
-import ager.action.AgeAction;
 import ager.common.Constants;
+import ager.util.AgeUtil;
 import ager.util.CalendarUtil;
 import ager.util.ChineseCalendar;
 
@@ -451,7 +451,7 @@ public class MainFrame extends JFrame {
 		}
 		
 		String dateStr = year + "-" + month + "-" + day; // 输入日期 yyyy-MM-dd
-		AgeAction service = new AgeAction(dateStr);
+		AgeUtil service = new AgeUtil(dateStr);
 		age = service.getAge();
 		nominalAge = service.getNominalAge();
 		animalsYear = service.getAnimalsYear();

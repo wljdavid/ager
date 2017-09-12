@@ -1,24 +1,21 @@
 /*
  * Created on: 2015年9月26日
  */
-package ager.action;
+package ager.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import ager.util.CalendarUtil;
-import ager.util.ChineseCalendar;
-
 /**
  * @author 李海涛
  * @version 1.0
  */
-public class AgeAction {
+public class AgeUtil {
 	private Date birthday; // 公历生日
 	private int nextBirthWeekNum; // 下次生日星期几
 	
-	public AgeAction(String birthStr) {
+	public AgeUtil(String birthStr) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 		try {
 			this.birthday = sdf.parse(birthStr);
